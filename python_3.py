@@ -32,7 +32,7 @@ else:
 
 
      """
-
+"""
 
 a=int(input("Enter the number:"))
 b=int(input("Enter the number:"))
@@ -42,6 +42,44 @@ if choice==1:
     print(f"{a}+{b})= {a+b})
 if choice==2:
     print(f"{a}+{b})= {a+b})
+    
 
          
      
+"number"("2,3,4,5)
+for n in "number"
+if n %2=0
+print(n)
+
+
+
+
+
+age=int(input("Enter your age"))
+if age >0:
+   if age >=18:
+      print ("You are eligible to vote")
+   else:
+      print("You are not eligible to vote")
+else:
+    print ("Enter a positive digit")
+
+    """
+"""
+print("hello dev")
+"""
+"""
+age=int(input("enter your age"))
+if age >=18:
+    pass
+else:
+    print("You are not eligible to vote") 
+    
+    """
+numbers=[234,5,6,7,8,910,11,12,13,141,14,15,16,161,17,1,19,20]
+for i in numbers:
+    if i > 1:
+        for j in range(2,i):
+                if i%j == 0:
+                    print("i")
+                    break

@@ -1,4 +1,4 @@
-age=18
+"""age=18
 p=3.12
 c=7j
 
@@ -21,7 +21,19 @@ s={"Ashlin",18,"python"}
 
 print(s)
 
+"""
+
+
+"""
+my_list=["Ashlin",16,'python']
+print("Python is not in my list")
 
 
 
+age=["Kochi"]
+a=["kochi"]
+print(id(age))
 
+print(id(a))
+"""
+""" command added to study git"""
