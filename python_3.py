@@ -76,6 +76,7 @@ else:
     print("You are not eligible to vote") 
     
     """
+"""
 numbers=[234,5,6,7,8,910,11,12,13,141,14,15,16,161,17,1,19,20]
 for i in numbers:
     if i > 1:
@@ -83,3 +84,17 @@ for i in numbers:
                 if i%j == 0:
                     print("i")
                     break
+"""
+
+n = int(input("Enter a number:"))
+
+if n > 1:
+    for i in range(2, n):
+        if n % i == 0:
+            print(n, "is not a prime number")
+            break
+    else:
+        print(n, "is a prime number")
+else:
+    print(n, "is not a prime number")
+

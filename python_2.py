@@ -33,16 +33,32 @@ for num in number:
     if num%2==0:
        print(num)
        """
-
+"""
 
 words=["Apple","Banana","Orange","Kiwi","cherry","Avacado"]
 for word in words:
     if word[0] in "AEIOUaeiou":
        print(word)
 
+"""
+
+
+""" this is a test command"""
 
 
 
 
-       """ this is a test command"""
-       
+"""
+
+numbers=[12,6,2,78,1,9,4]
+
+
+result=0
+
+
+for n in numbers:
+    result+=n
+print(result)"""
+
+
+num=int(input("Enter your number:"))
